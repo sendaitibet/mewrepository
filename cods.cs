@@ -26,3 +26,8 @@
                         break;
                     }
 //more
+   static byte[] pattern(Func<int, int, byte> f, int N)
+        {
+            byte[] result = new byte[N * N];
+            for (int y = 0; y < N; y++) for (int x = 0; x < N; x++) result[x + y * N] = f(x, y);
+            return result;
