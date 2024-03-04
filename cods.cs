@@ -25,3 +25,4 @@
                             System.IO.File.WriteAllText($"output/{name} {seed}.txt", stmodel.TextOutput());
                         break;
                     }
+//more
